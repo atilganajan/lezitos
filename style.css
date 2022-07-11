@@ -1,0 +1,72 @@
+* {
+    font-size: 14px;
+}
+
+
+
+.radius {
+    border-bottom-left-radius: 1.1rem;
+    border-bottom-right-radius: 1.1rem;
+    border-top-right-radius: 1.1rem;
+}
+
+.img-hover :hover {
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+}
+
+.body-bg {
+    background: rgb(240, 238, 240);
+}
+
+.footer-bg {
+    background-color: rgb(47, 47, 47);
+}
+
+
+
+.logo-size {
+    width: 15px;
+}
+
+.social-icon {
+    color: white;
+}
+
+.social-icon i{
+    font-size: 1.1rem;
+}
+
+
+
+.social-icon:hover {
+    color: white;
+    transform: translate(0px, -5px);
+    transition: .3s ease-in-out;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+.div-size {
+    font-size: 0.85rem;
+}
+
+.a-style:hover {
+    background-color: rgb(236, 230, 230);
+
+}
+/* Food Image Fit */
+.custom-food-img{
+    object-fit: cover;
+    height: 8.5rem;
+}
+
+/* Social Icons Style */
+.icon-facebook{
+    background-color:  #3b5998;
+}
+.icon-instagram{
+    background-color: #d831a4;
+}
